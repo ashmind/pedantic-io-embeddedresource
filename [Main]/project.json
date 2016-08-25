@@ -1,0 +1,28 @@
+{
+    "name": "Pedantic.IO.EmbeddedResource",
+    "version": "0.9.0-pre-02",
+    "authors": [ "Andrey Shchekin" ],
+    "description": "Embedded resource helper that mirrors File APIs: e.g. EmnbeddedResource.ReadAllText().",
+
+    "packOptions": {
+        "owners": [ "Andrey Shchekin" ],
+        "projectUrl": "https://github.com/ashmind/pedantic-io-embeddedresource",
+        "repository": {
+            "url": "https://github.com/ashmind/pedantic-io-embeddedresource.git"
+        },
+        "releaseNotes": "",
+        "tags": [ "embedded", "resource", "resources", "pedantic" ]
+    },
+
+    "frameworks": {
+        "net11": {},
+        "netstandard1.0": {
+            "buildOptions": {
+                "define": [ "NETCORE" ]
+            },
+            "dependencies": {
+                "System.Reflection": "4.1.0"
+            }
+        }
+    }
+}

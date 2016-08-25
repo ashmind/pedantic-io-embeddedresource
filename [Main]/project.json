@@ -2,7 +2,7 @@
     "name": "Pedantic.IO.EmbeddedResource",
     "version": "0.9.0-pre-02",
     "authors": [ "Andrey Shchekin" ],
-    "description": "Embedded resource helper that mirrors File APIs: e.g. EmnbeddedResource.ReadAllText().",
+    "description": "Embedded resource helper that mirrors File APIs: e.g. EmbeddedResource.ReadAllText().",
 
     "packOptions": {
         "owners": [ "Andrey Shchekin" ],
